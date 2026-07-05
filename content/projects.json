@@ -1,0 +1,88 @@
+{
+  "_readme": "THIS FILE IS THE ENTIRE SITE'S CONTENT. To add a project: (1) create a folder images/<slug>/ containing cover.jpg plus 01.jpg, 02.jpg, ... (2) copy one of the blocks below, fill it in, and add it to the top of the 'projects' array. Order in this array = order on the homepage.",
+  "site": {
+    "name": "Amelia Forman",
+    "tagline": "Interior design student at Parsons School of Design, New York.",
+    "intro": "Interior design grounded in history, materials, and form — proportion and restraint, creating interiors that feel clear yet warm.",
+    "email": "forma124@newschool.edu",
+    "instagram": "https://instagram.com/curated_amelia",
+    "about": [
+      "Amelia Forman is an interior design student at Parsons School of Design. Her work is grounded in history, materials, and form. She focuses on proportion and restraint, often drawing from historical references to create interiors that feel clear yet warm. She has a strong interest in vintage furniture, using authentic secondhand pieces to create layered, lasting interiors.",
+      "She holds a B.A. in Economics and Spanish from Wellesley College, summa cum laude, and is completing an A.A.S. in Interior Design at Parsons, expected May 2026. Her training spans AutoCAD, SketchUp, V-Ray rendering, hand drafting, perspective drawing, and physical model making. She speaks English and Spanish."
+    ]
+  },
+  "projects": [
+    {
+      "slug": "the-new-lobby",
+      "title": "The New Lobby",
+      "type": "Existing space redesign + site analysis",
+      "description": "Reimagines an uninviting institutional lobby as a vibrant community hub rooted in Parsons' interdisciplinary culture and student work. Existing conditions were surveyed and developed into demolition and proposed plan drawings, transforming a rigid space into an interdisciplinary center: visitors grab a coffee, gather in the amphitheater while a student plays the grand piano, and multi-story display walls showcase work across fashion, interiors, and music.",
+      "images": [
+        { "file": "01.jpg", "caption": "Concept sketch — hand drawn + Photoshop" },
+        { "file": "02.jpg", "caption": "Before entering, the coffee counter and displays are visible through the window — V-Ray render" },
+        { "file": "03.jpg", "caption": "Reception — V-Ray render" },
+        { "file": "04.jpg", "caption": "Entry turnstiles — V-Ray render" },
+        { "file": "05.jpg", "caption": "A double-height wall of student projects — V-Ray render" },
+        { "file": "06.jpg", "caption": "Section — CAD" },
+        { "file": "07.jpg", "caption": "Amphitheater concept sketch — hand drawn" },
+        { "file": "08.jpg", "caption": "Amphitheater and grand piano — V-Ray render" },
+        { "file": "09.jpg", "caption": "Section — CAD with Photoshop material overlay" },
+        { "file": "10.jpg", "caption": "Floor plan — CAD with Photoshop material overlay" },
+        { "file": "11.jpg", "caption": "Precedent study: Dior display shelves — hand drawn" },
+        { "file": "12.jpg", "caption": "Precedent study: The Morgan Library — hand drawn + Photoshop" }
+      ]
+    },
+    {
+      "slug": "drawing-room",
+      "title": "Drawing Room",
+      "type": "Residential room composition study",
+      "description": "A formal drawing room organized around symmetry, axial views, and curated focal elements. An existing floor plan was scaled and developed into a fully designed room: two central vistas guide movement, corner glazing is preserved, full-track curtains regulate light and heat, and furniture and artwork act as sculptural anchors. A Jack Whitten painting anchors the mantel, its tones informing the counter and mantel marble and a custom marble coffee table. Furnishings include a Barcelona daybed, Pierre Paulin ribbon chairs, and a Pierre Jeanneret and Le Corbusier upholstered sofa; an alternate Franco-Japanese scheme substitutes a modular Vuarnesson coffee table and a Charlotte Perriand bed for warmer materials and a softer sense of order.",
+      "images": [
+        { "file": "01.jpg", "caption": "Plan — CAD" },
+        { "file": "02.jpg", "caption": "Elevation — CAD" },
+        { "file": "03.jpg", "caption": "Bird's-eye perspective — V-Ray render" },
+        { "file": "04.jpg", "caption": "The mantel as secondary focal point — V-Ray render" },
+        { "file": "05.jpg", "caption": "The corner window is preserved and kept unobstructed — V-Ray render" },
+        { "file": "06.jpg", "caption": "Primary vista aligning seating with the window — V-Ray render" },
+        { "file": "07.jpg", "caption": "Jack Whitten's Escalation II anchors the mantel — V-Ray render" },
+        { "file": "08.jpg", "caption": "Counter marble informed by the painting's tones — V-Ray render" },
+        { "file": "09.jpg", "caption": "Lighting scene: morning, plan view — V-Ray render" },
+        { "file": "10.jpg", "caption": "Lighting scene: morning, lights off — V-Ray render" },
+        { "file": "11.jpg", "caption": "Lighting scene: noon, lights on — V-Ray render" },
+        { "file": "12.jpg", "caption": "Lighting scene: night, lights on — V-Ray render" },
+        { "file": "13.jpg", "caption": "Custom modular coffee table — SketchUp development" },
+        { "file": "14.jpg", "caption": "Alternate proposal: softened geometry with Franco-Japanese variation — V-Ray render" }
+      ]
+    },
+    {
+      "slug": "symmetry-residence",
+      "title": "Symmetry Residence",
+      "type": "Hand-drafted residential design study",
+      "description": "Transforms a compact classroom footprint into a functional living space guided by symmetry and negative space, with all drawings completed by hand. Inspired by a visit to the Merchant's House Museum, a classic historic floor plan is reinterpreted in reverse: instead of a wall and doorway separating public and private spaces, a large central built-in defines the division — a kitchen on the public side, a vanity opposite — with negative space surrounding it to establish the primary axis of symmetry. Simple, symmetrical furniture with handmade qualities balances accuracy with a human touch.",
+      "images": [
+        { "file": "01.jpg", "caption": "Floor plan — hand drafted, 3/8\" = 1'-0\"" },
+        { "file": "02.jpg", "caption": "Kitchen side of the central built-in — concept sketch, watercolor" },
+        { "file": "03.jpg", "caption": "Vanity side — concept sketch, watercolor; furniture reference: Jean Royère Ondulation armchair" },
+        { "file": "04.jpg", "caption": "Section through the vanity — hand drafted" },
+        { "file": "05.jpg", "caption": "Section — hand drafted" },
+        { "file": "06.jpg", "caption": "Axonometric study — hand drafted" }
+      ]
+    },
+    {
+      "slug": "porcelain-atelier",
+      "title": "Porcelain Atelier",
+      "type": "Ground-up architectural concept",
+      "description": "A porcelain gallery inspired by the material's history, shaping an architectural form that functions as both exhibition space and artwork. The building's geometry is derived from a physically broken porcelain plate, allowing the fragments to determine the form. Glossy walls contrast with rough earthenware floors, reinforcing porcelain's value; gold-lined fissures reference kintsugi and carry hidden light, while south-facing glass walls admit shifting daylight that changes how the porcelain is seen over time.",
+      "images": [
+        { "file": "01.jpg", "caption": "Floor plan with fragmented pedestal field and continuous perimeter shelf — CAD" },
+        { "file": "02.jpg", "caption": "Concept sketch — charcoal" },
+        { "file": "03.jpg", "caption": "Porcelain fragment study" },
+        { "file": "04.jpg", "caption": "Study model — front view" },
+        { "file": "05.jpg", "caption": "Reflected ceiling plan — CAD" },
+        { "file": "06.jpg", "caption": "Exterior — parallel projection, V-Ray render" },
+        { "file": "07.jpg", "caption": "Interior, morning light — V-Ray render" },
+        { "file": "08.jpg", "caption": "Interior, afternoon light — V-Ray render" }
+      ]
+    }
+  ]
+}
