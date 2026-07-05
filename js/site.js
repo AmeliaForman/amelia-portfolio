@@ -17,11 +17,19 @@ function withFallback(img) {
   img.addEventListener("error", () => { img.src = PLACEHOLDER; }, { once: true });
 }
 
+/* Text formatting for JSON content: **bold**, *italic*, \n = line break. */
+function fmt(s) {
+  return esc(s)
+    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+    .replace(/\*([^*]+)\*/g, "<em>$1</em>")
+    .replace(/\n/g, "<br>");
+}
+
 /* ---------- Homepage: stacked cover feed ---------- */
 function renderIndex(data) {
   const intro = document.querySelector(".intro");
   if (intro) {
-    intro.querySelector("h1").textContent = data.site.intro || data.site.tagline;
+    intro.querySelector("h1").innerHTML = fmt(data.site.intro || data.site.tagline);
   }
 
   const list = document.getElementById("project-index");
@@ -74,7 +82,7 @@ function renderProject(data) {
     });
 
   if (p.description && !/^PLACEHOLDER/.test(p.description)) {
-    document.getElementById("project-desc").textContent = p.description;
+    document.getElementById("project-desc").innerHTML = fmt(p.description);
   }
 
   const wrap = document.getElementById("project-images");
@@ -106,7 +114,7 @@ function renderAbout(data) {
   const body = document.getElementById("about-paragraphs");
   data.site.about.forEach((t) => {
     const el = document.createElement("p");
-    el.textContent = t;
+    el.innerHTML = fmt(t);
     body.appendChild(el);
   });
   const email = document.getElementById("contact-email");

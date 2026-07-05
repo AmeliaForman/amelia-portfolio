@@ -80,13 +80,20 @@ img { display: block; max-width: 100%; height: auto; }
 .intro h1 {
   font-family: var(--serif);
   font-weight: 400;
-  font-style: italic;
+  font-style: normal;
   font-size: clamp(22px, 2.8vw, 34px);
   line-height: 1.4;
   color: var(--ink);
 }
-.intro h1 em { font-style: italic; }
+.intro h1 strong { font-weight: 500; }
+.intro h1 em {
+  font-style: italic;
+  font-size: 0.75em;
+  display: inline-block;
+  margin-top: 8px;
+}
 .intro p { margin-top: 16px; color: var(--taupe); max-width: 52ch; }
+strong { font-weight: 500; }
 
 /* ---------- Project index: stacked cover feed ---------- */
 .project-index {
